@@ -31,6 +31,40 @@
     i:hover {
       background-color: #fff;
       transition: var(--transition);
+      &.fa-html5 {
+        color: var(--html-color);
+      }
+      &.fa-css3 {
+        color: var(--css-color);
+      }
+      &.fa-js {
+        color: var(--js-color);
+      }
+      &.fa-python {
+        color: var(--python-color);
+      }
+      &.fa-java {
+        color: var(--java-color);
+      }
+      &.fa-react {
+        color: var(--react-color);
+      }
+      &.fa-r-project {
+        color: var(--r-color);
+      }
+      &.fa-file-excel {
+        color: var(--microsoft-excel-color);
+      }
+      &.fa-people-group {
+        color: var(--microsoft-teams-color);
+      }
+      &.fa-database {
+        color: var(--sql-color);
+      }
+    } transition: var(--transition);
+    &:hover {
+      transform: translateY(-10px);
+      transition: var(--transition);
     }
   }
 }
