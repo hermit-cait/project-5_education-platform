@@ -1,2 +1,11 @@
 @import "settings";
 @import "variables";
+
+// Components
+
+@import "./components/nav";
+
+// Pages
+
+@import "./pages/indexHeaderSec";
+@import "./pages/indexCategoriesSec";

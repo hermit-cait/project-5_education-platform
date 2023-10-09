@@ -1,0 +1,41 @@
+/* Navigation */
+
+.navbar {
+  width: 100%
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: var(--transition);
+  .logo {
+    margin: 0.3rem;
+    background-color: #fff;
+    color: var(--primary-color);
+    padding: 0.6rem 0.3rem;
+    border-radius: 50%;
+  }
+}
+
+.navbar-nav {
+   width: 220px;
+   font-weight: 600;
+   & .nav-item {
+    padding: 5px 10px;
+    border-radius: 5px;
+    &:first-child {
+      border: 1px solid #eee;
+    }
+    &.active {
+      background-color: #eee;
+      color: #000;
+    }
+    &:hover {
+      text-decoration: none;
+      background-color: #eee;
+      color: #000;
+      transition: var(--transition);
+    }
+   }
+}
