@@ -1,0 +1,17 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.subtitle {
+  font-size: 3.5rem;
+}
+
+/* Variables */
