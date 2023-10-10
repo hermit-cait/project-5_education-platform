@@ -1013,6 +1013,10 @@ body {
   color: white;
 }
 
+.card-register {
+  margin-bottom: 5rem;
+}
+
 /*Navigation*/
 .navbar {
   display: flex;

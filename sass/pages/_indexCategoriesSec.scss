@@ -5,7 +5,8 @@
   gap: 50px;
   .card {
     max-width: 500px;
-    min-width: 350px;
+    min-width: 50px;
+    margin-inline: 1rem;
     &-header {
       background-color: var(--primary-color);
       color: #fff;

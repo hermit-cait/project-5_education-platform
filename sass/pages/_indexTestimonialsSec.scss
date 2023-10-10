@@ -73,4 +73,22 @@
       margin-bottom: 0.2rem;
     }
   }
+
+  @media (min-width: 500px) {    
+    .testimonial:nth-child(odd) {
+      transform: translateX(100px);
+    }
+    .testimonial:nth-child(even) {
+      transform: translateX(-100px);
+    }
+    .testimonial {
+      visibility: hidden;
+      opacity: 0;
+    }
+    .testimonial.in-view {
+      visibility: visible;
+      opacity: 1;
+      transform: none;
+    }    
+  }
 }
